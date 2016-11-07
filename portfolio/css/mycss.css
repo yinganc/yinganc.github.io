@@ -1,6 +1,7 @@
 body{
     height: 100%;
     margin: 0;
+    padding: 0;
     background: #FFE4E1; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(white,#FFE4E1); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white,#FFE4E1); /* For Opera 11.1 to 12.0 */
@@ -10,22 +11,24 @@ body{
 }
 .wrapper {
   min-height: 100%;
-  margin-bottom: -50px;
+  height:auto;
+  height: 100%;
+  margin: 0 auto -100px;
 }
 
 footer{
-    background-color: #DCDCDC; 
-    text-align: center;
-    float: center;
     background: #FFE4E1; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#FFE4E1,white,gray); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FFE4E1,white,gray); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FFE4E1,white,gray); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#FFE4E1,white,gray); /* Standard syntax */
+
 }
 .footer,
 .push {
-  height: 50px;
+  height: 100px;
+  clear: both;
+  text-align: center;
 }
 
 footer p{
@@ -62,10 +65,12 @@ h3 a:hover{
     border-radius: 180px;
 }
 
-ul p{
+ul p
+{
     text-align: left;
     font-family: Times;
 }
+
 .normal{
     font-family: inherit;
     text-align: center;
@@ -77,13 +82,14 @@ ul p{
     font-family: serif;
     font-weight: bold;
 }
-ul li ul{
+p ul li{
     list-style-type: circle;
-    font-family: Times;
 }
 
 .form{
-    margin-left: 20%;
+    text-align: left;
+    position: relative;
+    margin-left: 25%
 }
 
 label{
