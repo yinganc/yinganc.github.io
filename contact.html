@@ -2,19 +2,24 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>SI 539 portfolio</title>
-  <!-- Latest compiled and minified CSS -->
+  <title>Amy Chen</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/mycss.css" rel="stylesheet">
+  <script type="text/javascript">
+      function checkForm() {
+        var name = document.getElementById('name');
+        var email = document.getElementById('email');
+        var message = document.getElementById('message');
+      }
+  </script>
 
 </head>
 <body>
+<div class="wrapper">
   <nav class="navbar navbar-default navbar-fixed-top">
+  <a class="navbar-brand" href="index.html">Amy Chen</a>
       <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -22,83 +27,56 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Amy Chen</a>
         </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">About Me<span class="sr-only">(current)</span></a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+            <li><a href="resume.html">RESUME</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="chied.html">ChiEd</a></li>
-              <li><a href="design.html">Design Thinking</a></li>
-              <li><a href="contextual.html">Contextual Inquiry</a></li>
-            </ul>
-        </li>
-      </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="design.html">Design Project</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="contact.html">CONTACT</a></li>
+          </ul>
     </nav>
+    
+    <header class="page-header">
+      <h1>Contact Me<br><small>Connection | Communication | Cooperation</small></h1>
+      <p>Hi, my new friend. Do you want to know more about me? Please send me an email and ask me questions.</p>
+    </header> 
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>This is <small>secondary heading</small></h1>
-        <p class="lead">this is a leading paragraph</p>
-        <p>this is a normal paragraph</p>
-        <p><small>terms and conition fine print</small></p>
-      </div>
-      <div class="col-xs-12">
-        You can <mark>highling text using mark</mark> try!
-        <del>delete text</del>
-        <s>strike</s>
-      </div>
-      <div class="col-xs-12">
-        <p class="text-left">left align text</p>
-        <p class="text-center">center align text</p>
-        <p class="text-right">right align text</p>
-        <p class="text-justify">justify align text</p>
-      </div>
-      <div class="col-xs-12">
-        <p class="text-lowercase">RTYUEHWGJH</p>
-        <p class="text-uppercase">adfjhjhkjh</p>
-        <blockquote class="blockquote-reverse">
-          <p>asdjh erj afhjadgf adjhjkehr ahdgfka fjjhfka</p>
-          <footer>quote somethin in the article</footer>
-        </blockquote>
-      </div>
-      <div class="col-md-4 col-md-push-8 bg-success">
-        <p>Hi this should be partent column</p> 
-      </div>
-      <div class="col-md-8 col-md-pull-4 bg-primary">
-        <p>Hi this should be partent column</p> 
-        
-      </div>
-      
+    <div class="form">  
+            <form action="mailto:yinganc@umich.edu" onsubmit="return checkForm()">
+              <div class="row">  
+                <label for="name">Your name:</label><br>
+                <input id="name" name="name" type="text" value="" size="30"/><br>
+              </div>
+              <div class="row">
+                <label for="email">Your email:</label><br>
+                <input id="email" name="email" type="text" value="" size="30"/><br>
+              </div>
+              <div class="row">
+                <label for="message">Your message:</label><br/>
+                <textarea id="message" name="message" rows="7" cols="100"/></textarea><br>
+              </div>
+              <button style="text-align: right;">Send email</button>
+            </form>           
     </div>
-  </div>
-  
+<div class="push"></div>
+</div>
+    
+    <footer class="footer">
+          <p>Copyright &copy; Chen, Ying-An 2016</p>                        
+            <li style="display: inline;"><a href="https://www.facebook.com/amy.chen.18"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li style="display: inline;"><a href="https://tw.linkedin.com/in/amy-chen-35586338"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li style="display: inline;"><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+    </footer>
+
   <script src="js/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
   <script src="js/bootstrap.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

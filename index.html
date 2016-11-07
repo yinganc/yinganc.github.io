@@ -2,16 +2,16 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>SI 539 portfolio</title>
+  <title>Amy Chen</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
-  <link href="css/mycss.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/mycss.css">
 
 </head>
 <body>
+<div class="wrapper">
   <nav class="navbar navbar-default navbar-fixed-top">
-  <a class="navbar-brand" href="#">Amy Chen</a>
+  <a class="navbar-brand" href="index.html">Amy Chen</a>
       <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,49 +24,48 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">About Me<span class="sr-only">(current)</span></a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+            <li><a href="resume.html">RESUME</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="chied.html">ChiEd</a></li>
-              <li><a href="design.html">Design Thinking</a></li>
-              <li><a href="contextual.html">Contextual Inquiry</a></li>
-            </ul>
-        </li>
-      </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="design.html">Design Project</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
     </nav>
     
-    <div class="page-header">
-      <h1>About Me<br><small>I love thinking | I love challenge | I love developing</small></h1>
+    <header class="page-header">
+      <h1>About Me<br><small>I like reading | I like thinking | I like listening</small></h1>
       <p>Hi, my new friend. This is Amy. I am a first year UMSI student. Welcome to my website.</p>
-    </div> 
+    </header> 
 
     <div class="container">  
         <div class="row">
-            <article class="col-md-4">
+            <article class="col-md-4 col-sm-6 col-xs-12">
                 <a href="resume.html">
-                    <img class="img-responsive img-rounded" src="img/tree.jpg" alt="tree" style="width:200px;height:200px;">
+                    <img class="img-responsive img-rounded" src="img/past.jpeg" alt="past life" style="width:200px;height:200px;margin: 0px auto;">
                 </a>
                 <h3>
                     <a href="resume.html">Past</a>
                 </h3>
                 <p>I used to be an administrator at National Taiwan University. I traveled around the world to recruit excellent international students. Please come in and check my resume and all the photos I took from travelling.</p>
             </article>
-            <article class="col-md-4">
-                <a href="portfolio.html">
-                    <img class="img-responsive img-rounded" src="img/tree.jpg" alt="tree" style="width:200px;height:200px;">
+            <article class="col-md-4 col-sm-6 col-xs-12">
+                <a href="gallery.html">
+                    <img class="img-responsive img-rounded" src="img/current.jpeg" alt="current life" style="width:200px;height:200px;margin: 0px auto;">
                 </a>
                 <h3>
-                    <a href="portfolio.html">Current</a>
+                    <a href="gallery.html">Current</a>
                 </h3>
                 <p>While learning to become a interaction designer in future, I am learning different techniques and methods in</p>
             </article>
 
-            <article class="col-md-4">
+            <article class="col-md-4 col-sm-12 col-xs-12">
                 <a href="contact.html">
-                    <img class="img-responsive img-rounded" src="img/tree.jpg" alt="tree" style="width:200px;height:200px;">
+                    <img class="img-responsive img-rounded" src="img/future.jpeg" alt="future life" style="width:200px;height:200px;margin: 0px auto;">
                 </a>
                 <h3>
                     <a href="contact.html">Future</a>
@@ -75,22 +74,18 @@
             </article>
         </div>
     </div>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <ul class="soc">           
-            <li><a class="soc-facebook" href="https://www.facebook.com/amy.chen.18"></a></li>
-            <li><a class="soc-linkedin" href="www.linkedin.com/in/amy-chen-35586338"></a></li>
-          </ul>
-        </div>
-      </div>
-      <p>Copyright &copy; Chen, Ying-An 2016 </p>
-      </div>
-  </footer>
+  <div class="push"></div>
+</div>
+    
+    <footer class="footer">
+          <p>Copyright &copy; Chen, Ying-An 2016</p>                        
+            <li style="display: inline;"><a href="https://www.facebook.com/amy.chen.18"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li style="display: inline;"><a href="https://tw.linkedin.com/in/amy-chen-35586338"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li style="display: inline;"><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+    </footer>
 
   <script src="js/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
