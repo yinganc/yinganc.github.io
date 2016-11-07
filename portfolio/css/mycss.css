@@ -1,0 +1,112 @@
+body{
+    height: 100%;
+    margin: 0;
+    background: #FFE4E1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white,#FFE4E1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white,#FFE4E1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white,#FFE4E1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,#FFE4E1); /* Standard syntax */
+
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+footer{
+    background-color: #DCDCDC; 
+    text-align: center;
+    float: center;
+    background: #FFE4E1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFE4E1,white,gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFE4E1,white,gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFE4E1,white,gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFE4E1,white,gray); /* Standard syntax */
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+footer p{
+    display: inline;
+    text-align: center;
+    color: gray
+} 
+
+.align-center{
+    text-align: center;
+}
+.page-header{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: url("../img/header_flower.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1, h2, h3, p{
+    text-align: center;
+}
+
+h3 a{
+    color: gray;
+}
+
+h3 a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-rounded{
+    border-radius: 180px;
+}
+
+ul p{
+    text-align: left;
+    font-family: Times;
+}
+.normal{
+    font-family: inherit;
+    text-align: center;
+}
+
+
+.topic{
+    color: darkorange;
+    font-family: serif;
+    font-weight: bold;
+}
+ul li ul{
+    list-style-type: circle;
+    font-family: Times;
+}
+
+.form{
+    margin-left: 20%;
+}
+
+label{
+    color: #708090;
+}
+
+div.img {
+        margin: 5px;        
+        float: left;
+        width: 180px;
+}
+
+div.img:hover {
+        border: 3px solid #FFDAB9;
+}
+
+div.img img {
+        width: 100%;
+        height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
