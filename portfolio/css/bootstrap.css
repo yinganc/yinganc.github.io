@@ -2516,12 +2516,12 @@ input[type="search"] {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-input[type="radio"],
+/*input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
-}
+}*/
 input[type="file"] {
   display: block;
 }
@@ -3052,10 +3052,10 @@ fieldset[disabled] .btn {
           box-shadow: none;
   opacity: .65;
 }
-a.btn.disabled,
+/*a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
-}
+}*/
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -3499,7 +3499,7 @@ tbody.collapse.in {
        -o-transition-property: height, visibility;
           transition-property: height, visibility;
 }
-.caret {
+/*.caret {
   display: inline-block;
   width: 0;
   height: 0;
@@ -3509,7 +3509,7 @@ tbody.collapse.in {
   border-top: 4px solid \9;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
-}
+}*/
 .dropup,
 .dropdown {
   position: relative;
