@@ -143,13 +143,13 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-input[type="checkbox"],
+/*input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
-}
+}not validate*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -241,10 +241,10 @@ th {
   .navbar {
     display: none;
   }
-  .btn > .caret,
+  /*.btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
-  }
+  }*/
   .label {
     border: 1px solid #000;
   }
@@ -2600,7 +2600,7 @@ textarea.form-control {
 input[type="search"] {
   -webkit-appearance: none;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+/*@media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
@@ -2627,7 +2627,7 @@ input[type="search"] {
   .input-group-lg input[type="month"] {
     line-height: 46px;
   }
-}
+}*/
 .form-group {
   margin-bottom: 15px;
 }
@@ -2646,14 +2646,14 @@ input[type="search"] {
   font-weight: normal;
   cursor: pointer;
 }
-.radio input[type="radio"],
+/*.radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-top: 4px \9;
   margin-left: -20px;
-}
+}*/
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
@@ -2784,7 +2784,7 @@ select[multiple].input-lg {
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
-.form-control-feedback {
+/*.form-control-feedback {
   position: absolute;
   top: 0;
   right: 0;
@@ -2795,7 +2795,7 @@ select[multiple].input-lg {
   line-height: 34px;
   text-align: center;
   pointer-events: none;
-}
+}*/
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
@@ -3000,7 +3000,7 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
-.btn {
+/*.btn {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
@@ -3020,7 +3020,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-}
+}*/
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3578,13 +3578,13 @@ tbody.collapse.in {
   color: #777;
 }
 .dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
+/*.dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
+}*/
 .open > .dropdown-menu {
   display: block;
 }
@@ -3619,19 +3619,19 @@ tbody.collapse.in {
   right: 0;
   left: auto;
 }
-.dropup .caret,
+/*.dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
+  border-bottom: 4px solid;
 }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
   bottom: 100%;
   margin-bottom: 2px;
-}
+}*/
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
@@ -3805,14 +3805,14 @@ tbody.collapse.in {
 .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
-[data-toggle="buttons"] > .btn input[type="radio"],
+/*[data-toggle="buttons"] > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
-}
+}*/
 .input-group {
   position: relative;
   display: table;
@@ -5099,7 +5099,7 @@ a.thumbnail.active {
 .alert-danger .alert-link {
   color: #843534;
 }
-@-webkit-keyframes progress-bar-stripes {
+/*@-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
   }
@@ -5122,7 +5122,7 @@ a.thumbnail.active {
   to {
     background-position: 0 0;
   }
-}
+}*/
 .progress {
   height: 20px;
   margin-bottom: 20px;
@@ -5199,7 +5199,7 @@ a.thumbnail.active {
 .media:first-child {
   margin-top: 0;
 }
-.media,
+/*.media,
 .media-body {
   overflow: hidden;
   zoom: 1;
@@ -6457,7 +6457,7 @@ button.close {
   .carousel-indicators {
     bottom: 20px;
   }
-}
+}*/
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
