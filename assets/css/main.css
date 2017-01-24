@@ -2233,7 +2233,7 @@
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
-		#intropro2 {
+	#intropro2 {
 		background: url("images/overlay.png"), url("../../images/mlh/mlhbg.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2331,21 +2331,23 @@
 /* Two */
 
 	#two2 {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/mlh/affinitywallbg2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 /*Three*/
 	#three2 {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background:#fff;
+		color:black;
+		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 /*Four*/
 	#four2 {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/mlh/wallwalkbg.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2353,7 +2355,9 @@
 
 /*Five*/
 	#five2 {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: #fff;
+		color: black;
+		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
