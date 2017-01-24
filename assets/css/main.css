@@ -2372,7 +2372,9 @@
 /* One */
 
 	#one3 {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: #fff;
+		color: black;
+		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2382,21 +2384,24 @@
 /* Two */
 
 	#two3 {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/avalon/alphabasement.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 /*Three*/
 	#three3 {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: #fff;
+		color: black;
+		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 /*Four*/
 	#four3 {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+
+		background: url("images/overlay.png"), url("../../images/avalon/shelterstorage.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2411,7 +2416,9 @@
 	}
 /*Six*/
 	#six3 {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: #fff;
+		color: black;
+		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
