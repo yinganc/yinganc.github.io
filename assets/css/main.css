@@ -17,6 +17,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	cite{
+		font-style: italic;
+	}
 	article{
 		padding: 1em;
 	}
