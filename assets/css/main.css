@@ -2263,7 +2263,7 @@
 	#work {
 		background: #212326;
 		color: #fff;
-		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
+		background: url("images/overlay.png"), url("../../images/cpbg.jpg");
 		/*color: #e0e2e5;*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2481,7 +2481,7 @@
 
 	#contact {
 
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/contactbg.jpg");
 		color:#fff;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
