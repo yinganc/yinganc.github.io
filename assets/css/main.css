@@ -688,19 +688,19 @@
 
 	.probox1,.probox2,.probox3 {
 		width: 100%;
-		height: 22em;
+		/*height: 22em;*/
 		background: rgba(5,15,5,0.3);
 		color: #fff;
-		padding: 2em;
+		padding: 1em;
 		font-size: 100%;
-		border-radius: 2em;
+		border-radius: 1em;
 
 	}
-		.probox1 img{
+/*		.probox1 img{
 			width: 100%;
 			height: 100%;
 
-		}
+		}*/
 	/*.probox2 {
 		width: 100%;
 		height: 22em;
@@ -724,7 +724,7 @@
 		font-size: 100%;
 		border-radius: 2em;
 	}*/
-		.probox3 img{
+/*		.probox3 img{
 			width:100%;
 			height: 100%;
 		}
@@ -740,7 +740,7 @@
 		.probox4 img{
 			width:100%;
 			height: 100%;
-		}
+		}*/
 
 
 		
@@ -2325,6 +2325,12 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		text-align: center;
+	}
+	#work .content{
+		width: 100%;
+	}
+	#work .content .gallery{
+		width: 100%;
 	}
 /* One */
 
