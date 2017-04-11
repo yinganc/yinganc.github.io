@@ -2258,7 +2258,7 @@ background grey:#f4f4f4;
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/homepage.jpg");
+		background: url("images/overlay.png"), url("../../images/testbg.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2270,7 +2270,7 @@ background grey:#f4f4f4;
 		margin-right: 3em;
 		padding: 1em;
 		text-align:left;
-		color: #422106;
+		color: #212326;
 	}
 	.col-xs-6{
 	  position: relative;
@@ -2317,7 +2317,7 @@ background grey:#f4f4f4;
 	}
 	#introprobr {
 		background-color: #fff;
-		color: #422106;
+		color: #212326;
 		/*background: url("images/overlay.png"), url("../../images/getum/getumintro.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2391,7 +2391,7 @@ background grey:#f4f4f4;
 /*work*/
 	#work {
 		background: #fff;
-		color:#422106;
+		color:#212326;
 		/*background: url("images/overlay.png"), url("../../images/workbg.jpg");*/
 		/*color: #e0e2e5;*/
 		background-size: 256px 256px, cover;
