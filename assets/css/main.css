@@ -6,6 +6,7 @@ brown:#422106;
 expedia blue:rgb(0,53,95);
 expedia yellow: rgb(255,210,0);
 background grey:#f4f4f4;
+button green: #8AB150;
 */
 /*
 	Big Picture by HTML5 UP
@@ -2258,7 +2259,7 @@ background grey:#f4f4f4;
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/testbg.jpg");
+		background: url("images/overlay.png"), url("../../images/homepage.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
