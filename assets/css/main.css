@@ -2474,7 +2474,7 @@ background-size: 256px 256px, cover;
 
 	#two2 {
 		/*background: url("images/overlay.png"), url("../../images/mlh/affinitywallbg2.jpg");*/
-		background-color: white;
+		background: white;
 		color:#212326;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2482,7 +2482,7 @@ background-size: 256px 256px, cover;
 	}
 /*Three*/
 	#three2 {
-		background-color: white;
+		background: white;
 		color:#212326;
 		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
@@ -2492,7 +2492,7 @@ background-size: 256px 256px, cover;
 /*Four*/
 	#four2 {
 		/*background: url("images/overlay.png"), url("../../images/mlh/wallwalkbg.png");*/
-		background-color: white;
+		background: white;
 		color:#212326;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
