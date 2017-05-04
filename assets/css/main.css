@@ -2289,7 +2289,7 @@ button green: #8AB150;
 		background-repeat: repeat, no-repeat;
 	}
 	#intropro2 {
-		background: url("images/overlay.png"), url("../../images/mlh/mlhbg.jpg");
+		background: url("images/overlay.png"), url("../../images/mlh/mlhbg.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2349,7 +2349,7 @@ background-size: 256px 256px, cover;
   padding-right: 15px;
   padding-left: 15px;
   float: left;
-  width: 33.33%;
+  width: 33%;
 }
 
 .col-xs-12-selfintro{
@@ -2363,6 +2363,7 @@ background-size: 256px 256px, cover;
 .col-xs-12 p{
 	text-align: left;
 }
+
 
 @media screen and (max-width: 736px) {
 			
@@ -2408,7 +2409,7 @@ background-size: 256px 256px, cover;
 
 	}
 	#work .content .col-xs-12{
-		width: 30%;
+		width: 29.5%;
 		margin: 1em;
 		position: relative;
 	}
@@ -2472,15 +2473,17 @@ background-size: 256px 256px, cover;
 /* Two */
 
 	#two2 {
-		background: url("images/overlay.png"), url("../../images/mlh/affinitywallbg2.jpg");
+		/*background: url("images/overlay.png"), url("../../images/mlh/affinitywallbg2.jpg");*/
+		background-color: white;
+		color:#212326;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 /*Three*/
 	#three2 {
-		background:#212326;
-		color:#fff;
+		background-color: white;
+		color:#212326;
 		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2488,7 +2491,9 @@ background-size: 256px 256px, cover;
 	}
 /*Four*/
 	#four2 {
-		background: url("images/overlay.png"), url("../../images/mlh/wallwalkbg.png");
+		/*background: url("images/overlay.png"), url("../../images/mlh/wallwalkbg.png");*/
+		background-color: white;
+		color:#212326;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
