@@ -534,10 +534,15 @@ button green: #8AB150;
 		font-weight: 50;
 		font-size: 12pt;
 		line-height: 1.75em;
-		color: #575e60;
+		color: #5d6060;
 		letter-spacing: 0.025em;
 	}
-
+		
+		@media screen and (min-width: 2520px) {
+			body, input, textarea, select {
+				font-size: 29pt;
+			}
+		}
 		@media screen and (max-width: 1920px) {
 
 			body, input, textarea, select {
@@ -545,6 +550,7 @@ button green: #8AB150;
 			}
 
 		}
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -660,7 +666,7 @@ button green: #8AB150;
  /*Box */
 
 	.box {
-		background: rgba(10,0,0,0.4);
+		background: rgba(10,0,0,0.5);
 		color: #fff;
 /*		border-bottom-right-radius: 50em;
 		border-bottom-left-radius: 50em;*/
@@ -2285,8 +2291,8 @@ button green: #8AB150;
 	.col-xs-6{
 	  position: relative;
 	  min-height: 1px;
-	  padding-right: 15px;
-	  padding-left: 15px;
+	  padding-right: 1em;
+	  padding-left: 1em;
 	  float: left;
 	  width: 50%;
 	}
@@ -2783,7 +2789,7 @@ button green: #8AB150;
 	/*-ms-animation: snow 30s linear infinite;*/
 	/*animation: snow 45s linear infinite;*/
 }
-@keyframes snow {
+/*@keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
@@ -2803,7 +2809,7 @@ button green: #8AB150;
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}	
+}	*/
 
 /*visual lightbox
 
@@ -2825,8 +2831,7 @@ button green: #8AB150;
 .column {
   float: left;
   /*display: inline-block;*/
-  width: 25%;
-}
+
 
 /* The Modal (background) */
 .modal {
